@@ -17007,6 +17007,34 @@ video {
   transition-delay: 1000ms;
 }
 
+.card {
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.badge-card {
+  --bg-opacity: 1;
+  background-color: #e2e2d5;
+  background-color: rgba(226, 226, 213, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #888888;
+  color: rgba(136, 136, 136, var(--text-opacity));
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
 @media (min-width: 640px){
   .sm\:space-y-0 > :not(template) ~ :not(template){
     --space-y-reverse: 0;
