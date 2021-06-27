@@ -1,0 +1,23 @@
+{
+  "name": "foodcouscous",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerrygeop/foodcouscous.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerrygeop/foodcouscous/issues"
+  },
+  "homepage": "https://github.com/gerrygeop/foodcouscous#readme",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
