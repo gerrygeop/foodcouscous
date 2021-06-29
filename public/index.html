@@ -12,14 +12,14 @@
 <body class="text-gray-600 font-nunito">
 
   <!-- content wrapper -->
-  <div class="grid md:grid-cols-3">
+  <div class="grid md:grid-cols-4">
 
     <div class="md:col-span-1 md:flex md:justify-end">
 
       <nav class="text-right">
         <div class="flex justify-between items-center p-4">
-          <h1 class="font-bold uppercase md:border-b">
-            <a href="/" class="hover:text-red-700">Food CousCous</a>
+          <h1 class="font-bold text-2xl uppercase md:border-b">
+            <a href="/" class="hover:text-red-500">Food CousCous</a>
           </h1>
 
           <button class="md:hidden" id="hamburgerButton">
@@ -64,20 +64,21 @@
     </div>
 
     <!-- main content -->
-    <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+    <main class="px-8 md:px-16 py-6 bg-gray-100 md:col-span-3">
       <div class="flex justify-center md:justify-end">
-        <a href="#" class="btn-rounded text-primary border-primary md:border hover:bg-primary hover:text-white">Login</a>
-        <a href="#" class="btn-rounded text-primary ml-2 border-primary md:border hover:bg-primary hover:text-white">Sign Up</a>
+        <a href="#" class="btn-rounded text-primary border-primary md:border hover:bg-primary hover:text-white transition ease-out duration-500">Login</a>
+        <a href="#" class="btn-rounded text-primary ml-2 border-primary md:border hover:bg-primary hover:text-white transition ease-out duration-500">Sign Up</a>
       </div>
 
       <header>
-        <h2 class="text-gray-700 text-5xl font-semibold">Recipes</h2>
-        <h3 class="text-2xl font-semibold">For Human</h3>
+        <h2 class="text-gray-700 text-4xl font-semibold">Recipes</h2>
+        <h3 class="text-xl font-semibold">For Human</h3>
       </header>
 
       <div>
         <h4 class="font-bold mt-12 pb-2 border-b">Latest Recipes</h4>
         <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
           <div class="card hover:shadow-lg">
             <img src="./img/food-1.jpg" alt="Chicken Takoyaki" class="w-full h-32 sm:h-48 object-cover">
             <div class="m-4">
@@ -122,13 +123,80 @@
               <span>35 mins</span>
             </div>
           </div>
+
         </div>
 
         <h4 class="font-bold mt-12 pb-2 border-b">Most Popular</h4>
-        <div></div>
+        <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+          <div class="card hover:shadow-lg">
+            <img src="./img/food-1.jpg" alt="Chicken Takoyaki" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">5 Been Chilli Stew</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="badge-card flex items-center">
+              <svg class="w-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                </path>
+              </svg>
+              <span>25 mins</span>
+            </div>
+          </div>
+          
+          <div class="card hover:shadow-lg">
+            <img src="./img/food-4.jpg" alt="Food 2" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">Macaroni La Fonte</span>
+              <span class="block text-gray-500 text-sm">Recipe by Geop</span>
+            </div>
+            <div class="badge-card flex items-center">
+              <svg class="w-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                </path>
+              </svg>
+              <span>15 mins</span>
+            </div>
+          </div>
+          
+          <div class="card hover:shadow-lg">
+            <img src="./img/food-5.jpg" alt="Food 3" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">Noodle with Shrimp</span>
+              <span class="block text-gray-500 text-sm">Recipe by Beatrix</span>
+            </div>
+            <div class="badge-card flex items-center">
+              <svg class="w-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                </path>
+              </svg>
+              <span>35 mins</span>
+            </div>
+          </div>
+
+          <div class="card hover:shadow-lg">
+            <img src="./img/food-6.jpg" alt="Food 3" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">Noodle with Shrimp</span>
+              <span class="block text-gray-500 text-sm">Recipe by Beatrix</span>
+            </div>
+            <div class="badge-card flex items-center">
+              <svg class="w-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                </path>
+              </svg>
+              <span>35 mins</span>
+            </div>
+          </div>
+
+        </div>
         
-        <div class="flex md:justify-center">
-          <div class="btn-rounded bg-secondary-100 text-secondary-200 hover:shadow-inner">Load More</div>
+        <div class="flex justify-center mt-10">
+          <div class="btn-rounded bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300">Load More</div>
         </div>
 
       </div>
